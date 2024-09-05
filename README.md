@@ -15,9 +15,9 @@ This is one of the most interesting challenges in NLP so I’m very excited to t
 
 Let’s go through the problem statement once as it is very crucial to understand the objective before working on the dataset. The problem statement is as follows:
 
-The objective of this task is to detect hate speech in tweets. For the sake of simplicity, we say a tweet contains hate speech if it has a racist or sexist sentiment associated with it. So, the task is to classify racist or sexist tweets from other tweets.
+The objective of this task is to detect hate speech in tweets. For the sake of simplicity, we say a tweet contains hate speech if it has a racist sentiment associated with it. So, the task is to classify racist tweets from other tweets.
 
-Formally, given a training sample of tweets and labels, where label ‘1’ denotes the tweet is racist/sexist and label ‘0’ denotes the tweet is not racist/sexist, your objective is to predict the labels on the given test dataset.
+Formally, given a training sample of tweets and labels, where label ‘1’ denotes the tweet is racist and label ‘0’ denotes the tweet is not racist, your objective is to predict the labels on the given test dataset.
 
 Note: The evaluation metric from this practice problem is F1-Score.
 
@@ -48,5 +48,3 @@ Which trends are associated with either of the sentiments? Are they compatible w
 # End Notes
 
 In this article, we learned how to approach a sentiment analysis problem. We started with preprocessing and exploration of data. Then we extracted features from the cleaned text using Bag-of-Words and TF-IDF. Finally, we were able to build a couple of models using both the feature sets to classify the tweets.
-
-Did you find this article useful? Do you have any useful trick? Did you use any other method for feature extraction? Feel free to discuss your experiences in comments below or on the discussion portal and we’ll be more than happy to discuss.
